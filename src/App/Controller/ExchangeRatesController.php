@@ -12,7 +12,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class ExchangeRatesController extends AbstractController
 {
-    public function abc(Request $request, ExchangeRateService $service): Response
+    public function index(Request $request, ExchangeRateService $service): Response
     {
         /**
          * TODO: that should be in Requests but required library is not installed so validation is manually here

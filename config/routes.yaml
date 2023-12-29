@@ -10,7 +10,7 @@ setupcheck:
 
 exchangerates:
     path: /api/exchange-rates
-    controller: App\Controller\ExchangeRatesController::abc
+    controller: App\Controller\ExchangeRatesController::index
 
 index:
     path: /{wildcard}
